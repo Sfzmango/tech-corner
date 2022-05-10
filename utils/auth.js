@@ -1,5 +1,5 @@
 // authentication middleware to check if user is logged in
-const withAuth = (req, res, next) => {
+const Auth = (req, res, next) => {
 
     // If the user is not logged in, redirect the user to the login page
     if (!req.session.loggedIn) {
@@ -12,4 +12,4 @@ const withAuth = (req, res, next) => {
     }
 };
 
-module.exports = withAuth;
+module.exports = Auth;

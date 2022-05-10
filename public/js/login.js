@@ -2,7 +2,7 @@
 const loginForm = async (event) => {
     event.preventDefault();
 
-    let email = document.querySelector('#loginEmail').value.trim();
+    let email = document.querySelector('#loginUsername').value.trim();
     let password = document.querySelector('#loginPassword').value.trim();
 
     if (email && password) {
@@ -24,7 +24,7 @@ const loginForm = async (event) => {
 const signupForm = async (event) => {
     event.preventDefault();
 
-    let email = document.querySelector('#loginEmail').value.trim();
+    let email = document.querySelector('#loginUsername').value.trim();
     let password = document.querySelector('#loginPassword').value.trim();
 
     if (email && password) {

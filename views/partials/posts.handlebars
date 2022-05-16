@@ -1,13 +1,15 @@
-<div class="mt-5 container">
-    <div class="card">
-        <div class="card-header">
-            {{title}}
+<div class="uk-card uk-background-muted uk-card-default uk-margin-large uk-margin-large-left uk-margin-large-right uk-border-rounded uk-card-hover"
+    style="border: solid 1px darkslategray">
+    <div class="uk-card-header">
+        <div class="uk-grid-small uk-flex-middle" uk-grid>
+            <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom">{{User}}</h3>
+                <p class="uk-text-meta uk-margin-remove-top"><time>{{Date}}</time>
+                </p>
+            </div>
         </div>
-        <div class="card-body">
-            <blockquote class="blockquote mb-0">
-                <p>{{desc}}</p>
-                <footer class="blockquote-footer">{{username}} {{date}}</footer>
-            </blockquote>
-        </div>
+    </div>
+    <div class="uk-card-body">
+        <p>{{Text}}</p>
     </div>
 </div>

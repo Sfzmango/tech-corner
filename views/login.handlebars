@@ -1,27 +1,22 @@
-<form>
-    <div class="container mt-5 w-50">
-        <div class="card">
-            <h5 class="card-header">Login</h5>
-            <div class="card-body">
-                <h5 class="card-title">Please enter your email and password:</h5>
-                <p class="card-text">
-                <div class="mb-3">
-                    <div class="mb-3 row">
-                        <label for="loginUsername" class="col-sm-2 col-form-label">Username</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="loginUsername">
-                        </div>
-                    </div>
-                    <div class="mb-3 row">
-                        <label for="loginPassword" class="col-sm-2 col-form-label">Password</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="loginPassword">
-                        </div>
-                    </div>
-                    </p>
-                    <a href="#" class="btn btn-primary loginBtn">Login</a>
-                    <a href="#" class="btn btn-primary signupBtn">Sign Up</a>
-                </div>
+<div class="uk-card-large uk-card-default uk-card-body uk-width-1-2@m uk-position-center">
+    <h3 class="uk-card-title">Login</h3>
+    <form>
+        <fieldset class="uk-fieldset">
+            <legend class="uk-legend">Username</legend>
+            <div class="uk-margin uk-inline">
+                <span class="uk-form-icon" uk-icon="icon: user"></span>
+                <input class="uk-input" type="text" placeholder="Username" id="loginUsername">
             </div>
-        </div>
-</form>
+            <legend class="uk-legend">Password</legend>
+            <div class="uk-margin uk-inline">
+                <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                <input class="uk-input" type="password" placeholder="Password" id="loginPassword">
+            </div><br>
+            <button
+                class="uk-button uk-button-primary uk-border-rounded loginBtn uk-background-secondary">Login</button>
+        </fieldset>
+        <p>Don't have an account ?<a href="/signup"> Sign Up</a></p>
+    </form>
+</div>
+
+<script src="/js/login.js"></script>

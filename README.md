@@ -62,7 +62,16 @@ To start the program, please open the perfect-readme directory on terminal and t
 
 ## <ins> Demonstration: </ins>
         
-![Demonstration](./demo/demo.gif)
+### Home Page:
+![Homepage](./demo/home.png)
+<br>
+
+### Login Page:
+![Login](./demo/Login%20Page.png)
+<br>
+
+### Dashboard:
+![Dashboard](./demo/dashboard.png)
 <br><br>   
 
 ## <ins> Links: </ins>
